@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="hdf_sociodemographie-hdf_sociodemographie">
+        <SrcDataSource relativeToVRT="1">hdf_sociodemographie.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>hdf_sociodemographie</SrcLayer>
+        <Field name="num_bu" src="num_bu" type="String"/>
+        <Field name="cod_entite_geo" src="cod_entite_geo" type="String"/>
+        <Field name="typ_entite_geo" src="typ_entite_geo" type="String"/>
+        <Field name="cod_version" src="cod_version" type="String"/>
+        <Field name="menrp" src="menrp" type="Integer"/>
+        <Field name="pop_mun" src="pop_mun" type="Integer"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
